@@ -1,6 +1,6 @@
 {
   "name": "newinputnabc",
-  "version": "1.0.0",
+  "version": "1.6.0",
   "description": "A newinputnabc is a graphical user interface (GUI) element that serves as a clickable control to trigger an action or perform a specific task within an application or website",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -18,6 +18,11 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lavin-kulal/dummyLerna/tree/master"
+  },
+  "homepage": "https://github.com/Lavin-kulal/dummyLerna/tree/master/pacakges/my-input",
   "dependencies": {
     "@babel/core": "^7.22.9",
     "@babel/preset-react": "^7.22.5",

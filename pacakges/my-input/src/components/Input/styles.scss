@@ -1,0 +1,25 @@
+.error {
+  border: 1px solid red;
+  color: #0e244a;
+  outline: none;
+}
+.no-error {
+  border: 1px solid #dee2e6;
+  width: auto;
+  outline: none;
+  font-size: 10px;
+  color: #0e244a;
+}
+
+.input::placeholder {
+  color: #a0a0a0;
+  border: 1px solid #dee2e6;
+}
+.input:focus {
+  border-color: #2863ff;
+}
+.input:disabled {
+  color: #eaecef;
+  border: 1px solid #eaecef;
+  background-color: #eaecef;
+}

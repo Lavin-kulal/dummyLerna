@@ -2795,8 +2795,8 @@ if (process.env.NODE_ENV === 'production') {
 var reactExports = react.exports;
 
 function Input(_a) {
-    var value = _a.value, defaultValue = _a.defaultValue, onChange = _a.onChange, testId = _a.testId;
-    return (reactExports.createElement("input", { type: "text", value: value, defaultValue: defaultValue, onChange: onChange, "data-testid": testId }));
+    var value = _a.value, defaultValue = _a.defaultValue, placeholder = _a.placeholder, onChange = _a.onChange, testId = _a.testId, isError = _a.isError, disabled = _a.disabled;
+    return (reactExports.createElement("input", { className: isError ? "error" : "no-error", type: "text", value: value, defaultValue: defaultValue, placeholder: placeholder, onChange: onChange, disabled: disabled, "data-testid": testId }));
 }
 
 export { Input };
