@@ -1,6 +1,6 @@
 # Lerna Getting Started Example
 
-This repo is a small example of using Lerna 5+.
+This repo is a small example of using Lerna 7+.
 
 Watch this [10-minute walkthrough](no-video link) to see how new versions of Lerna work.
 
