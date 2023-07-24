@@ -15,6 +15,7 @@ npm install updapt_input_component_testing
 To use the updapt_input_component_testing component in your application, import it and include it in your JSX code:
 
 ````tsx
+
 import React, { useState } from "react";
 import { UpdaptInput } from "updapt_input_component_testing";
 
@@ -64,6 +65,8 @@ Before contributing, please read our contributing guidelines.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+MIT &copy; [Anton Kudryavtsev](https://github.com/Lavin-kulal)
 
 Feel free to customize the content according to your project's requirements and specifications.
 
