@@ -1,33 +1,25 @@
-.error {
+.input {
+  outline: none;
+  padding: 0.5em;
+  color: #0e244a;
+  font-size: 15px;
+}
+.input.error {
   border: 1px solid red;
-  color: #0e244a;
-  outline: none;
 }
-
-.no-error {
-  border: 1px solid #dee2e6;
-  width: auto;
-  outline: none;
-  font-size: 10px;
-  color: #0e244a;
-}
-
-.input::-moz-placeholder {
-  color: #a0a0a0;
+.input.no-error {
   border: 1px solid #dee2e6;
 }
-
-.input::placeholder {
-  color: #a0a0a0;
-  border: 1px solid #dee2e6;
-}
-
 .input:focus {
   border-color: #2863ff;
 }
-
+.input::-moz-placeholder {
+  color: #a0a0a0;
+}
+.input::placeholder {
+  color: #a0a0a0;
+}
 .input:disabled {
   color: #eaecef;
-  border: 1px solid #eaecef;
   background-color: #eaecef;
 }/*# sourceMappingURL=styles.css.map */

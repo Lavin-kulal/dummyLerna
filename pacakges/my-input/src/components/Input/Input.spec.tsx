@@ -5,10 +5,10 @@
 import React from "react";
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { Input } from ".";
+import { UpdaptInput } from ".";
 
 test("renders input", async () => {
-  render(<Input testId="input" />);
+  render(<UpdaptInput testId="input" />);
 
   const input = screen.getByTestId("input");
 

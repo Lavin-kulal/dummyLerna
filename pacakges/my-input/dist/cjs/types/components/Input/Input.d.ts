@@ -1,11 +1,10 @@
 import * as React from "react";
-export interface InputProps<Type extends string | number | readonly string[] = string> {
-    value?: Type;
-    defaultValue?: Type;
-    onChange?: (e: React.ChangeEvent<HTMLInputElement>, ...arg: any[]) => void;
+import "./styles.css";
+export type UpdaptInputProp = React.DetailedHTMLProps<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement> & {
     testId?: string;
+    InputOnChange?: <T>(e: React.ChangeEvent<HTMLInputElement>, ...arg: T[]) => void;
+    inputValue?: any;
+    inputDisabled?: boolean;
     isError?: boolean;
-    placeholder?: string;
-    disabled?: boolean;
-}
-export declare function Input<Type extends string | number | readonly string[] = string>({ value, defaultValue, placeholder, onChange, testId, isError, disabled, }: InputProps<Type>): React.JSX.Element;
+};
+export declare function UpdaptInput({ testId, inputValue, InputOnChange, inputDisabled, isError, ...rest }: UpdaptInputProp): React.JSX.Element;
