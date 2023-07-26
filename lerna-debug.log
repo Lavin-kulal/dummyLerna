@@ -1,0 +1,19 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '7.1.4',
+0 silly argv   '$0': 'node_modules\\lerna\\dist\\cli.js'
+0 silly argv }
+1 notice cli v7.1.4
+2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/*"]
+3 verbose rootPath D:\dummyLerna
+4 error Error: Invalid package name "@onerepo/package-b/updapt-input-component-testing": name can only contain URL-friendly characters
+4 error     at invalidPackageName (D:\dummyLerna\node_modules\npm-package-arg\npa.js:89:15)
+4 error     at Result.setName (D:\dummyLerna\node_modules\npm-package-arg\npa.js:124:11)
+4 error     at new Result (D:\dummyLerna\node_modules\npm-package-arg\npa.js:114:23)
+4 error     at Function.resolve (D:\dummyLerna\node_modules\npm-package-arg\npa.js:61:15)
+4 error     at new Package (D:\dummyLerna\node_modules\lerna\dist\index.js:689:57)
+4 error     at D:\dummyLerna\node_modules\lerna\dist\index.js:1394:14
+4 error     at Array.forEach (<anonymous>)
+4 error     at createProjectGraphWithPackages (D:\dummyLerna\node_modules\lerna\dist\index.js:1391:16)
+4 error     at async detectProjects (D:\dummyLerna\node_modules\lerna\dist\index.js:1491:24)
