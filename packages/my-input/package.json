@@ -64,5 +64,6 @@
     "rollup-plugin-css-bundle": "^1.0.4",
     "rollup-plugin-scss": "^3.0.0",
     "sass": "^1.63.6"
-  }
+  },
+  "gitHead": "1750ae64e4c085728b2c28e8e0251aed9331fa8d"
 }
