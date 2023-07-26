@@ -1,6 +1,6 @@
 {
   "name": "@onerepo/updapt-input-component-testing",
-  "version": "1.40.0",
+  "version": "1.0.1",
   "description": "A updapt_input_component_testing reusable input component for React, built with TypeScript, providing customizable and accessible input fields for modern web applications.",
   "main": "dist/esm/index.js",
   "types": "dist/index.d.ts",
