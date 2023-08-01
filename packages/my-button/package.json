@@ -1,6 +1,6 @@
 {
-  "name": "@onerepo/updapt-button-testing",
-  "version": "1.0.3",
+  "name": "@lavin123/updapt-button-testing",
+  "version": "1.2.0",
   "description": "A updapt_button_testing is a graphical user interface (GUI) element that serves as a clickable control to trigger an action or perform a specific task within an application or website.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -9,6 +9,7 @@
     "dist"
   ],
   "scripts": {
+    "tsc": "tsc",
     "test": "jest",
     "build": "rimraf dist && rollup -c"
   },
@@ -45,5 +46,5 @@
     "@rollup/plugin-node-resolve": "^15.1.0",
     "@rollup/plugin-replace": "^5.0.2"
   },
-  "gitHead": "1750ae64e4c085728b2c28e8e0251aed9331fa8d"
+  "gitHead": "9839f758d7b7bbafdf71b546edc051e67795f8f4"
 }

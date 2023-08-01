@@ -1,6 +1,6 @@
 {
-  "name": "@onerepo/updapt-input-component-testing",
-  "version": "1.0.3",
+  "name": "@lavin123/updapt-input-component-testing",
+  "version": "1.2.0",
   "description": "A updapt_input_component_testing reusable input component for React, built with TypeScript, providing customizable and accessible input fields for modern web applications.",
   "main": "dist/esm/index.js",
   "types": "dist/index.d.ts",
@@ -8,6 +8,7 @@
     "dist"
   ],
   "scripts": {
+    "tsc": "tsc",
     "test": "jest",
     "build": "rimraf dist && rollup -c"
   },
@@ -65,5 +66,5 @@
     "rollup-plugin-scss": "^3.0.0",
     "sass": "^1.63.6"
   },
-  "gitHead": "1750ae64e4c085728b2c28e8e0251aed9331fa8d"
+  "gitHead": "9839f758d7b7bbafdf71b546edc051e67795f8f4"
 }
